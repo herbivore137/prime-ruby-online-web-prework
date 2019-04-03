@@ -21,4 +21,4 @@ def prime?(num)
 end
 
 
-puts prime?(8)
+puts prime?(27)
