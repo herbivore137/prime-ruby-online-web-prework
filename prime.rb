@@ -5,9 +5,7 @@ def prime?(num)
   
     arr.each do |x|
       
-      until num % x == 0 
-        bool = false 
-      end
+      
     
     bool
     
