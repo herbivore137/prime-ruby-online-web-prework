@@ -5,8 +5,8 @@ def prime?(num)
   
     arr.each do |x|
       
-      while num % x != 0 
-        bool = true 
+      until num % x == 0 
+        bool = false 
       end
     
     return bool
