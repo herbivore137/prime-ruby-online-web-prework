@@ -15,6 +15,3 @@ def prime?(num)
     false
   end
 end
-
-
-puts prime?(425479)
