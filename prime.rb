@@ -3,21 +3,10 @@ def prime?(num)
   if num > 2 
    arr = (2...num).to_a
   
-   bool = true 
-  
-  
-
-   
     arr.each do |x|
-      
-          num % x == 0 ? bool = false : true
-          b
+      num % x == 0 ? bool = false : true
     end
 
-  
-  return bool
-  
-  
   elsif num == 2 
     true
   else
