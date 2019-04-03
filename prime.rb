@@ -9,7 +9,7 @@ def prime?(num)
         bool = false 
       end
     
-    return bool
+    bool
     
   elsif num == 2 
     true
