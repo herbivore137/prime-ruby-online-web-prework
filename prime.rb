@@ -4,13 +4,11 @@ def prime?(num)
     arr = (2...num).to_a
     arr.each do |x|
       if num % x == 0 
-        false 
+        bool = false 
         break
-      else
-        true 
       end 
     end
-    #bool
+    bool
   elsif num == 2 
     true
   else
