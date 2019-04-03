@@ -1,5 +1,5 @@
 def prime?(num)
- # bool = true;
+  bool = true;
   if num > 2 
     arr = (2...num).to_a
     arr.each do |x|
