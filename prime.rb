@@ -9,6 +9,7 @@ def prime?(num)
         bool = false 
         break
       end 
+    end
 
     bool
       
